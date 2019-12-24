@@ -15,7 +15,7 @@ copyright-name
 
 ## Feedback and Contributing
 
-Check out the [Contributing](https://github.com/organization-name/repo-name//blob/master/CONTRIBUTING.md) page to see the best places to log issues and start discussions.
+Check out the [Contributing](https://github.com/organization-name/repo-name/blob/master/CONTRIBUTING.md) page to see the best places to log issues and start discussions.
 
 ## License
 

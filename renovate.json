@@ -56,10 +56,6 @@
     {
       "packageNames": ["typescript"],
       "automerge": false
-    },
-    {
-      "packageNames": ["tsickle"],
-      "automerge": false
     }
   ]
 }

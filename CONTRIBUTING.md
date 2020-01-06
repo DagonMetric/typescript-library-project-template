@@ -1,4 +1,4 @@
-# How to contribute
+# How to Contribute
 
 One of the easiest ways to contribute is to participate in discussions and report issues. You can also contribute by submitting pull requests with code changes.
 

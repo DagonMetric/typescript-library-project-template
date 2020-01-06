@@ -20,9 +20,9 @@ This is a rough outline of what a contributor's workflow looks like:
 
 3. Make your changes in a new git branch.
 
-4. Make sure your code lints by running `npm run lint` command.
+4. Make sure your code lints by running `npm run lint` command if present.
 
-5. Run the build with `npm run build` and test with `npm run test` command, and ensure that all builds and tests succeed.
+5. Run the build with `npm run build` and test with `npm run test` command if present, and ensure that all builds and tests succeed.
 
 6. Commit your changes using a descriptive commit message that follows our [commit message conventions](https://gist.github.com/dagonmetric-contributor/b3815561401555fa9ac2530f32e56dd3).
 

@@ -17,7 +17,7 @@
     "test": "ng test"
   },
   "dependencies": {
-    "tslib": "^1.10.0"
+    "tslib": "^1.11.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.900.3",

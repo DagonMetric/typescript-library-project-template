@@ -48,7 +48,7 @@
     "tsickle": "~0.38.1",
     "tslint": "^6.1.2",
     "tslint-microsoft-contrib": "^6.2.0",
-    "typescript": "~3.5.3",
+    "typescript": "~3.9.5",
     "typescript-tslint-plugin": "^0.5.5",
     "zone.js": "^0.10.3"
   }

@@ -20,7 +20,7 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.901.7",
+    "@angular-devkit/build-angular": "^0.901.8",
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11",
     "@angular/cli": "^9.1.7",

@@ -3,17 +3,17 @@
   "version": 1,
   "newProjectRoot": "modules",
   "projects": {
-    "default-library-name": {
-      "root": "modules/default-library-name",
-      "sourceRoot": "modules/default-library-name",
+    "repo-name": {
+      "root": "modules/repo-name",
+      "sourceRoot": "modules/repo-name",
       "projectType": "library",
       "architect": {
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "modules/default-library-name/test.ts",
-            "tsConfig": "modules/default-library-name/tsconfig-test.json",
-            "karmaConfig": "modules/default-library-name/karma.conf.js",
+            "main": "modules/repo-name/test.ts",
+            "tsConfig": "modules/repo-name/tsconfig.test.json",
+            "karmaConfig": "modules/repo-name/karma.conf.js",
             "codeCoverageExclude": [
               "**/test.ts",
               "**/index.ts",
@@ -22,23 +22,12 @@
           },
           "configurations": {
             "ci": {
-              "browsers": "ChromeHeadless",
+              "browsers": "ChromeHeadlessCI",
               "reporters": ["progress", "junit"],
               "codeCoverage": true,
               "watch": false,
               "progress": false
             }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }

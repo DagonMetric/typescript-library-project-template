@@ -9,7 +9,6 @@ organization-name
 repo-title
 repo-name
 gitter-channel-name
-default-library-name
 copyright-name
 ```
 

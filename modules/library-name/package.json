@@ -1,0 +1,27 @@
+{
+  "name": "@organization-name/repo-name",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "",
+  "author": "organization-name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organization-name/repo-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/organization-name/repo-name/issues"
+  },
+  "homepage": "https://github.com/organization-name/repo-name",
+  "keywords": [
+    "angular",
+    "typescript"
+  ],
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "peerDependencies": {
+    "@angular/core": "^8.0.0-beta.0 || ^9.0.0-rc.0 || ^10.0.0-rc.0",
+    "rxjs": "^6.4.0"
+  },
+  "sideEffects": false
+}

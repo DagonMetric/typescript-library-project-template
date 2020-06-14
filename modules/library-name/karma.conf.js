@@ -35,7 +35,7 @@ module.exports = (config) => {
         },
         reporters: ['progress', 'kjhtml'],
         junitReporter: {
-            outputDir: '../../dist/junit/repo-name'
+            outputDir: '../../junit/repo-name'
         },
         port: 9876,
         colors: true,

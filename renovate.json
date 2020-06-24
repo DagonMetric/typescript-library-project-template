@@ -25,18 +25,6 @@
     },
     {
       "packagePatterns": [
-        "^@dagonmetric\/.*"
-      ],
-      "groupName": "dagonmetric"
-    },
-    {
-      "packagePatterns": [
-        "^@myanmartools\/.*"
-      ],
-      "groupName": "myanmartools"
-    },
-    {
-      "packagePatterns": [
         "^@types\/.*"
       ],
       "groupName": "types"
@@ -61,5 +49,6 @@
       "packageNames": ["tslib"],
       "automerge": false
     }
-  ]
+  ],
+  "suppressNotifications": ["prIgnoreNotification", "prEditNotification", "onboardingClose"]
 }

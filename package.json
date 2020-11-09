@@ -21,8 +21,8 @@
     "serve": "ng serve"
   },
   "dependencies": {
-    "@angular/common": "^10.2.2",
-    "@angular/core": "^10.2.2",
+    "@angular/common": "^10.2.3",
+    "@angular/core": "^10.2.3",
     "rxjs": "^6.6.3",
     "tslib": "~2.0.3"
   },
@@ -33,11 +33,11 @@
     "@angular-eslint/schematics": "0.0.1-alpha.33",
     "@angular-eslint/template-parser": "0.0.1-alpha.33",
     "@angular/cli": "^10.2.0",
-    "@angular/compiler": "^10.2.2",
-    "@angular/compiler-cli": "^10.2.2",
-    "@angular/language-service": "^10.2.2",
-    "@angular/platform-browser": "^10.2.2",
-    "@angular/platform-browser-dynamic": "^10.2.2",
+    "@angular/compiler": "^10.2.3",
+    "@angular/compiler-cli": "^10.2.3",
+    "@angular/language-service": "^10.2.3",
+    "@angular/platform-browser": "^10.2.3",
+    "@angular/platform-browser-dynamic": "^10.2.3",
     "@dagonmetric/angular-build": "^10.0.1",
     "@types/jasmine": "^3.6.1",
     "@types/jasminewd2": "^2.0.8",

@@ -32,7 +32,7 @@
     "@angular-eslint/eslint-plugin-template": "0.0.1-alpha.33",
     "@angular-eslint/schematics": "0.0.1-alpha.33",
     "@angular-eslint/template-parser": "0.0.1-alpha.33",
-    "@angular/cli": "^11.0.1",
+    "@angular/cli": "^11.0.2",
     "@angular/compiler": "^11.0.1",
     "@angular/compiler-cli": "^11.0.1",
     "@angular/language-service": "^11.0.1",

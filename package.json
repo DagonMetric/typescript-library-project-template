@@ -1,7 +1,7 @@
 {
-  "name": "repo-name",
+  "name": "@organization-name/repo-name",
   "version": "0.0.0",
-  "author": "DagonMetric",
+  "author": "organization-name",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,12 +13,10 @@
   "homepage": "https://github.com/organization-name/repo-name",
   "scripts": {
     "ng": "ng",
-    "ngb": "ngb",
+    "lib": "lib",
     "lint": "eslint -c .eslintrc.json --ext .js,.ts .",
-    "build": "ngb build --env.prod && ng build --prod",
-    "test": "ng test",
-    "e2e": "ng e2e",
-    "serve": "ng serve"
+    "build": "lib build --env.prod",
+    "test": "lib test --env.ci"
   },
   "dependencies": {
     "@angular/common": "^11.0.1",
@@ -27,43 +25,33 @@
     "tslib": "~2.0.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1100.2",
-    "@angular-eslint/eslint-plugin": "0.0.1-alpha.33",
-    "@angular-eslint/eslint-plugin-template": "0.0.1-alpha.33",
-    "@angular-eslint/schematics": "0.0.1-alpha.33",
-    "@angular-eslint/template-parser": "0.0.1-alpha.33",
+    "@angular-devkit/build-angular": "^0.1100.2",    
     "@angular/cli": "^11.0.2",
     "@angular/compiler": "^11.0.1",
     "@angular/compiler-cli": "^11.0.1",
-    "@angular/language-service": "^11.0.1",
+    "@angular/language-service": "^11.0.1",    
     "@angular/platform-browser": "^11.0.1",
-    "@angular/platform-browser-dynamic": "^11.0.1",
-    "@dagonmetric/angular-build": "^10.0.1",
+    "@angular/platform-browser-dynamic": "^11.0.1",    
     "@types/jasmine": "^3.6.1",
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^14.14.8",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "eslint": "^7.13.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-config-prettier": "^6.15.0",    
     "eslint-plugin-jsdoc": "^30.7.8",
-    "eslint-plugin-no-null": "^1.0.2",
-    "eslint-plugin-prefer-arrow": "^1.2.2",
     "eslint-plugin-prettier": "^3.1.4",
     "jasmine-core": "^3.6.0",
-    "jasmine-spec-reporter": "~6.0.0",
-    "karma": "~5.2.3",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.3",
-    "karma-jasmine": "~4.0.1",
-    "karma-jasmine-html-reporter": "^1.5.4",
-    "karma-junit-reporter": "^2.0.1",
-    "prettier": "^2.1.2",
-    "protractor": "~7.0.0",
-    "ts-node": "^9.0.0",
-    "tsickle": "^0.39.1",
+    "lib-tools": "^2.0.0",
+    "prettier": "^2.1.2",    
+    "protractor": "~7.0.0",    
+    "ts-node": "^9.0.0",    
+    "tsickle": "^0.39.1",    
     "typescript": "~4.0.5",
     "zone.js": "^0.11.3"
-  }
+  },
+  "peerDependencies": {    
+    "@angular/core": "^8.0.0-beta.0 || ^9.0.0-rc.0 || ^10.0.0-rc.0 || ^11.0.0-rc.0"
+  },
+  "sideEffects": false
 }

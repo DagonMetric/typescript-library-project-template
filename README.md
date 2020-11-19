@@ -8,6 +8,7 @@ Template variables:
 organization-name
 repo-title
 repo-name
+lib-umd-id
 gitter-channel-name
 copyright-name
 ```

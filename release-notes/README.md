@@ -1,4 +1,4 @@
 # Release Notes
 
-| Date (UTC) | Version |  |  |
+| Date (UTC +06:30 Yangon) | Version |  |  |
 | :-- | :-- | :--: | :-- |

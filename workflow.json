@@ -6,7 +6,8 @@
         "build": {
           "outputPath": "dist/packages/repo-name",
           "script": {
-            "compilations": "auto"
+            "compilations": "auto",
+            "umdId": "lib-umd-id"
           }
         },
         "test": {

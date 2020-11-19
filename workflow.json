@@ -1,5 +1,36 @@
 {
-    "$schema": "./node_modules/lib-tools/schemas/schema.json",
-    "projects": {}
+  "$schema": "./node_modules/lib-tools/schemas/schema.json",
+  "projects": {
+    "repo-name": {
+      "tasks": {
+        "build": {
+          "outputPath": "dist/packages/repo-name",
+          "script": {
+            "compilations": "auto"
+          }
+        },
+        "test": {
+          "testIndexFile": "test/index.ts",
+          "tsConfig": "tsconfig.test.json",
+          "envOverrides": {
+            "ci": {
+              "codeCoverageExclude": [
+                "**/test.ts",
+                "**/index.ts",
+                "**/public_api.ts"
+              ],
+              "reporters": [
+                "junit",
+                "coverage"
+              ],
+              "browsers": [
+                "ChromeHeadlessCI"
+              ],
+              "singleRun": true
+            }
+          }
+        }
+      }
+    }
   }
-  
+}

@@ -1,10 +1,6 @@
 name: Main Workflow
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push]
 
 jobs:
   build:
@@ -13,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -21,18 +17,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build, lint and test
+    - name: npm install, lint, build and test
       run: |
         npm ci
-        npm run build --if-present
-        npm run test --if-present -- -c=ci
-        npm run e2e --if-present -- -c=ci
         npm run lint --if-present
-    - uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        file: ./coverage/ng-config/lcov.info
-        flags: unit
-        # fail_ci_if_error: true #optional (default = false)
+        npm run build
+        npm run test --if-present
       env:
         CI: true

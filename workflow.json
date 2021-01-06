@@ -11,7 +11,7 @@
           }
         },
         "test": {
-          "testIndexFile": "test/index.ts",
+          "testIndexFile": "test/test.ts",
           "tsConfig": "tsconfig.test.json",
           "envOverrides": {
             "ci": {

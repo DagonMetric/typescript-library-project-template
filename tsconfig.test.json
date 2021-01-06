@@ -3,8 +3,7 @@
     "compilerOptions": {
       "outDir": "./out-tsc/spec",
       "types": [
-        "jasmine",
-        "node"
+        "jasmine"
       ]
     },
     "files": [
@@ -15,4 +14,3 @@
       "test/**/*.d.ts"
     ]
   }
-  

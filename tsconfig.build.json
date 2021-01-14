@@ -13,15 +13,5 @@
     },
     "files": [
       "public_api.ts"
-    ],
-    "angularCompilerOptions": {
-      "enableIvy": false,
-      "annotateForClosureCompiler": true,
-      "strictMetadataEmit": true,
-      "skipTemplateCodegen": true,
-      "fullTemplateTypeCheck": true,
-      "strictInjectionParameters": true,
-      "flatModuleOutFile": "repo-name.js",
-      "flatModuleId": "@organization-name/repo-name"
-    }
+    ]
   }

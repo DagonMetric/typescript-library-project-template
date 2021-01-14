@@ -8,13 +8,13 @@ We use [Github issues](https://github.com/organization-name/repo-name/issues) to
 
 ## General Discussions
 
-We use [Gitter Channel](https://gitter.im/gitter-channel-name) for general discussions.
+We’re using [GitHub Discussions](https://github.com/organization-name/repo-name/discussions) as a place to connect with other members of our community.
 
 ## Contributing Code and Content
 
 This is a rough outline of what a contributor's workflow looks like:
 
-1. Search [GitHub Pull Requests](https://github.com/organization-name/repo-name/pulls) for an open or closed PR that relates to your submission. You don't want to duplicate effort.
+1. Search [GitHub Pull Requests](https://github.com/organization-name/repo-name/pulls) for an open or closed PR that relates to your submission in order to avoid duplicate effort.
 
 2. Fork the repo and create your branch `topic` from master.
 

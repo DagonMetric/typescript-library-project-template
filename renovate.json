@@ -9,14 +9,5 @@
   ],
   "packageFiles": ["package.json"],
   "automerge": true,
-  "rangeStrategy": "bump",
-  "packageRules": [   
-    {
-      "packagePatterns": [
-        "^@angular\/.*"
-      ],
-      "groupName": "angular"
-    }    
-  ],
-  "suppressNotifications": ["prIgnoreNotification", "prEditNotification", "onboardingClose"]
+  "rangeStrategy": "bump"
 }
